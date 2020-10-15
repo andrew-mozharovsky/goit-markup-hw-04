@@ -17,6 +17,11 @@ body {
   background-color: var(--primary-bg);
   letter-spacing: 0.03em;
 }
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 0;
+}
 /* content container */
 .container {
   width: 1200px;
@@ -81,6 +86,7 @@ body {
 .header .contacts {
   display: flex;
   margin-left: auto;
+  list-style-type: none;
 }
 .contacts .contacts-item:not(:last-child) {
   margin-right: 50px;
@@ -112,8 +118,10 @@ body {
 }
 .hero .title {
   max-width: 700px;
-  margin-left: auto;
+  margin-top: 0;
   margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
 
   color: #ffffff;
   font-family: Roboto;
@@ -161,6 +169,9 @@ body {
   margin-right: 30px;
 }
 .features .title {
+  margin-top: 0;
+  margin-bottom: 0px;
+
   color: var(--primary-text-color);
   font-family: Roboto;
   font-weight: 700;
@@ -170,6 +181,7 @@ body {
 }
 .features .paragraph {
   margin-top: 10px;
+  margin-bottom: 0;
 
   color: var(--secondary-text-color);
   font-family: Roboto;
@@ -187,6 +199,9 @@ body {
   margin-right: 30px;
 }
 .wedo .title {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--primary-text-color);
   font-family: Roboto;
   font-weight: 700;
@@ -226,6 +241,8 @@ body {
   margin-right: 30px;
 }
 .team .title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--primary-text-color);
   font-family: Roboto;
   font-weight: 700;
@@ -235,6 +252,7 @@ body {
 }
 .team .name {
   margin-top: 30px;
+  margin-bottom: 0;
 
   color: var(--primary-text-color);
   font-family: Roboto;
@@ -245,6 +263,7 @@ body {
 }
 .team .position {
   margin-top: 10px;
+  margin-bottom: 0;
 
   color: var(--secondary-text-color);
   font-family: Roboto;
@@ -275,6 +294,8 @@ body {
 }
 .footer .address {
   margin-top: 20px;
+
+  font-style: normal;
 }
 .footer .map {
   color: #ffffff;
@@ -357,6 +378,7 @@ body {
 }
 .content .title {
   margin-top: 20px;
+  margin-bottom: 0;
   padding-left: 24px;
 
   color: var(--primary-text-color);
@@ -369,6 +391,7 @@ body {
 }
 .content .type {
   margin-top: 4px;
+  margin-bottom: 0;
   padding-left: 24px;
 
   color: var(--secondary-text-color);
